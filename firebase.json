@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "site": "habitika",
+    "public": "public",
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "/a/**",
+        "function": "avatar"
+      },
+      {
+        "source": "/render/**",
+        "function": "render"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.md",
+      "**/node_modules/**"
+    ]
+  },
+  "functions": {
+    "source": "functions"
+  }
+}

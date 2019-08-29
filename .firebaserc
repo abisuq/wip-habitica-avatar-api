@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "dotted-carrier-234306"
+  },
+  "targets": {
+    "dotted-carrier-234306": {
+      "hosting": {
+        "habitika": [
+          "habitika"
+        ]
+      }
+    }
+  }
+}
